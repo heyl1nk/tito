@@ -1,0 +1,79 @@
+
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*
+    AQUI PUEDES CAMBIAR EL COLOR Y FUENTE A TODO EL HTML
+    */
+  }
+
+.box{
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 600px;
+}
+
+
+.login{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black !important;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    border-radius: 0;
+}
+
+.form-control{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    border-radius: 0;
+}
+
+/* PARA QUE TENGA VISTA EN TELEFONO */
+
+@media screen and (min-width: 350px) and (max-width: 400px){
+    .box{
+        padding: 50px;
+        border: 1px solid black;
+        border-radius: 50px;
+        padding-right: 50px;
+        padding-left: 50px;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 767px){
+    .box{
+        padding: 50px;
+        border: 1px solid black;
+        border-radius: 50px;
+        padding-right: 50px;
+        padding-left: 50px;
+        width: 400px;
+    }
+}
+
+/* NOTA: SI QUIEREN CAMBIAR COLOR DE BOTON BUSQUEN LOS COLORES DE BOOTSTRAP
+   y PARA EL BORDE EN ".box" HAY UN APARTADO QUE DICE BORDER, PERO EN SE APARTADO
+   PUEDEN MODIFICAR LA CAJA, SI QUIEREN PONER ALGO DE FONDO
+   DEBEN MODIFICAR "html" PARA PODERLO HACER
+
+*/ 
+
+/* CSS PRINCIPAL y resto de subpaginas */
+
+
